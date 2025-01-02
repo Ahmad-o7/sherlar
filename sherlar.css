@@ -34,6 +34,9 @@ h1, h2, h3 {
     margin: 10px 0;
     color: #6200ea;
 }
+h1{
+    color: #000000
+}
 
 #categories {
     margin-bottom: 30px;
