@@ -1,0 +1,166 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    color: #6200ea;
+}
+h2, h3{
+  text-align: center;
+}
+h1{
+  color: black;
+}
+
+#categories {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+#categories li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #6200ea;
+    padding: 10px 15px;
+    border: 1px solid #6200ea;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#categories a:hover {
+    background-color: #6200ea;
+    color: #fff;
+}
+
+.poem-card {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.poem-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.poem-card p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #6200ea;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.mualif{
+  color: #0D0849E6;
+  text-align: right;
+}
+
+img{
+  width: 300px;
+}
+
+pre {
+    font-family: Arial, sans-serif; /* Odatiy shriftni qo'llash */
+    font-size: 16px; /* Zaruratga qarab o'lchamni moslang */
+  }
+
+
+/* Kategoriyalar bo'limi */
+#categories {
+  text-align: center; /* Matnni markazlashtirish */
+  margin: 0; /* Bo'shliqni olib tashlash */
+  padding: 10px 0; /* Ichki bo'shliq */
+  background-color: #FFFFFF00; /* Fon rangi */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Quyida soyani qo‘shish */
+  /*position: sticky;  Yopishib turish uchun asosiy xususiyat */
+  top: 0; /* Ekranning yuqori qismiga yopishtirish */
+  z-index: 1000; /* Qatlam ustunligini oshirish */
+}
+
+#categories li a {
+  text-decoration: none;
+  border-radius: 20px; /* Dumaloq shakl */
+  transition: all 0.3s ease; /* Animatsiya effekti */
+}
+
+#categories li a:hover {
+  transform: scale(1.1); /* Hoverda kattalashish */
+}
+
+
+
+#categories.sticky {
+    position: sticky;
+    font-size: 10%; /* Matn o'lchamini biroz kichraytirish */
+    
+}
+
+
+/* Yon tomondagi tugma */
+#toggleButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #510D85;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#toggleButton:hover {
+    background-color: #350A5E; /* Hover holatida tugma rangi o'zgaradi */
+}
